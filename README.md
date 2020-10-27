@@ -17,7 +17,7 @@ Specifically in Spark Streaming this parameter is called window duration.
 window transformation allow you to compute results across a longer time period than batch interval.
 
 Example - top selllers from ast hour
-	you might process data every 1 sec(batch interval),
-	but maintain a window for 1 hour
-The windo slides as times goes on, to represent batched within the window interval.
+- you might process data every 1 sec(batch interval),
+- but maintain a window for 1 hour \
+The window slides as times goes on, to represent batched within the window interval.
 
