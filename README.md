@@ -15,5 +15,5 @@ Example - top selllers from ast hour
 - but maintain a window for 1 hour \
 The window slides as times goes on, to represent batched within the window interval.
 
-# Spark Streaming Checkpoint
+### Spark Streaming Checkpoint
 A process of writing received records at checkpoint intervals to HDFS is checkpointing. \
