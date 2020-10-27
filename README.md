@@ -18,9 +18,10 @@ The window slides as times goes on, to represent batched within the window inter
 ### Spark Streaming Checkpoint
 A process of writing received records at checkpoint intervals to HDFS is checkpointing. 
 
+## Dealing with reciever fails
 
-## Deaking with driver script failure
-Instead of working with StreaminContext you created directly, use the one returned by
+## Dealing with driver script failure
+Instead of working with StreamingContext you created directly, use the one returned by
 StreamingContext.getOrCreate(checkpointDir, <function that create a new StreamingContext>)
  - takes a checkpoint directory as well fuction that will crate a new streaming context
  - First check checkpoint directory and see if something was left over there from previous driver run that 
